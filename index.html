@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<ul class='header__ul'>
+					<li class='header__li--a'>Calculator</li>
+					<li class='header__li'>Exchange Rate</li>
+					<li class='header__li'>Unit Converter</li>
+				</ul>
+
+					<div class="header__display"><form name="form"><input type="text" name="textview" class='item' readonly></form></div>
+
+			</div>
+			   <section class="number">
+                <ul class="aa">
+                    <li class="ss" onclick="clean()">C</li>
+                    <li class="ss" id='%'>%</li>
+                    <li class="ss" onclick="back()"><--</li>
+                    <li class="ss" onclick="insert('/')">/</li>
+                </ul>
+                <ul class="aa">
+                    <li class="ss" onclick="insert('7')">7</li>
+                    <li class="ss" onclick="insert('8')">8</li>
+                    <li class="ss" onclick="insert('9')">9</li>
+                    <li class="ss" onclick="insert('*')">x</li>
+                </ul>
+                <ul class="aa">
+                    <li class="ss" onclick="insert('4')">4</li>
+                    <li class="ss" onclick="insert('5')">5</li>
+                    <li class="ss" onclick="insert('6')">6</li>
+                    <li class="ss" onclick="insert('-')">-</li>
+                </ul>
+                <ul class="aa">
+                    <li class="ss" onclick="insert('1')" >1</li>
+                    <li class="ss" onclick="insert('2')" >2</li>
+                    <li class="ss" onclick="insert('3')">3</li>
+                    <li onclick="insert('+')" class="ss">+</li>
+                </ul>
+                <ul class="aa">
+                    <li class="ss" id='zero zero'>00</li>
+                    <li class="ss" onclick="insert('0')">0</li>
+                    <li class="ss" id='.'>.</li>
+                    <li class="ss" onclick="equal()">=</li>
+                </ul>
+            </section>
+		</header>
+	</div>
+	<script src='index.js'></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 500;
+	background: #CDCDCD;
+	color: aqua;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+._container {
+	max-width: 1046px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+.header {
+position: absolute;
+margin-top: 10px;
+margin-left: 10px;
+max-width: 374px;
+background: #1a1a1a;
+min-height: 690px;
+width: 100%;
+left: 0;
+top: 0;
+z-index: 50;
+}
+
+.header__li--a {
+	color: #F63356;
+	margin-left: 18px;
+}
+
+.header__container {
+min-height: 104px;
+align-items: center;
+}
+
+.header__ul {
+	padding-top: 36px;
+	display: flex;
+}
+
+.header__li {
+	color: #CDCDCD;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 18px;
+}
+
+.item {
+	font-size: 26px;
+	margin: 20px;
+	max-width: 300px;
+	background: #202020;
+	color: #e5e5e5;
+}
+
+.header__display {
+	max-width: 325px;
+	min-height: 173px;
+	background: #202020;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.25);
+	margin-left: 13px;
+	margin-top: 27px;
+	color: #747474;
+}
+
+.header__title {
+	font-size: 32px;
+	max-width: 320px;
+	background: #202020;
+	color: #e5e5e5;
+	padding-top: 30px;
+	margin-left: 0px;
+}
+
+
+
+.header__p {
+	color: #e5e5e5;
+	font-size: 35px;
+	margin: 0px 73px 0px 132px;
+	padding-bottom: 20px;
+}
+
+.aa li {
+    display: inline-block;
+    height: 60px;
+		cursor: pointer;
+    width: 60px;
+    margin-left: 26px;
+		margin-top: 22px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #747474;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    box-shadow: -10px -10px 20px 0px #202020,
+                10px 10px 20px 0px #00000040;
+		max-height: 940px;
+}
+
+.ss:last-child {
+    color: #F63356;
+}
+
+.active {
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px -2px rgba(0, 0, 5, 0.25),
+}
